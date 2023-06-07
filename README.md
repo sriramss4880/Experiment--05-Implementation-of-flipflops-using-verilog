@@ -148,7 +148,7 @@ Register Number: 212222230150
 
 
 
-
+```
 ## SR flip flop:
 vhdl
 module exp_5a(s,r,clk,q,qbar);
@@ -205,7 +205,7 @@ qbar<=~q;
 end 
 endmodule
 
-
+```
 
 ### OUTPUT :
 
