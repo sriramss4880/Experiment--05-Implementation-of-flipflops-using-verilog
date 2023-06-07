@@ -138,18 +138,19 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 ## PROGRAM: 
 
-verilog
+
 
 Program for flipflops and verify its truth table in quartus using Verilog programming.
-Developed by: Anto Richard. S
-Register Number: 212221240005
+Developed by: SRIRAM S S
+Register Number: 212222230150
 
 
 
-verilog
 
-# SR flip flop:
 
+
+## SR flip flop:
+vhdl
 module exp_5a(s,r,clk,q,qbar);
 input s,r,clk;
 output q,qbar;
@@ -163,10 +164,8 @@ endmodule
 
 
 
-verilog
-
-# JK flip flop:
-
+## JK flip flop:
+vhdl
 module exp_5b(j,k,clk,q,qbar);
 input j,k,clk;
 output q,qbar;
@@ -179,11 +178,8 @@ end
 endmodule
 
 
-
-verilog
-
-# T flip flop:
-
+## T flip flop:
+vhdl
 module exp_5c(clk,T,q,qbar);
 input clk,T;
 output q,qbar;
@@ -196,11 +192,8 @@ end
 endmodule
 
 
-
-verilog
-
-# D flip flop:
-
+## D flip flop:
+vhdl
 module exp_5d(d,clk,q,qbar);
 input d,clk;
 output q,qbar;
@@ -239,19 +232,19 @@ endmodule
 
 ### SR FLIP FLOP TIMING DIAGRAM :
 
-![time1](https://github.com/anto-richard/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427534/3a9aff0a-cd17-4333-9df6-6612e91eeb5a)
+![sr](https://github.com/MohammedFaizal05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120553195/9ccb522e-29e9-49d8-b602-403c44167e66)
 
 ### JK FLIP FLOP TIMING DIAGRAM :
 
-![time2](https://github.com/anto-richard/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427534/bf4f66ff-f01f-421e-bea5-a6ca782a80b2)
+![jk](https://github.com/MohammedFaizal05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120553195/975e11e1-f9ac-4b72-8373-68136eb01648)
 
 ### T FLIP FLOP TIMING DIAGRAM :
 
-![time3](https://github.com/anto-richard/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427534/1c6a4bb4-16ec-457a-bbbb-b50229b1cd61)
+![t](https://github.com/MohammedFaizal05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120553195/1240529c-f4d9-4690-bb58-f0329489c54a)
 
 ### D FLIP FLOP TIMING DIAGRAM :
 
-![time4](https://github.com/anto-richard/Experiment--05-Implementation-of-flipflops-using-verilog/assets/93427534/217975aa-60df-41b6-a31c-48fa065866d2)
+![d](https://github.com/MohammedFaizal05/Experiment--05-Implementation-of-flipflops-using-verilog/assets/120553195/b759668e-5020-4b01-8a04-a4b9d23ae328)
 
 ## RESULT:
 
